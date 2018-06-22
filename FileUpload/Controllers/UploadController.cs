@@ -23,7 +23,7 @@ namespace FileUpload.Controllers
     public ActionResult UploadFile(Image Img,  HttpPostedFileBase file )
     {
         try
-        {  
+        {  //kjdshfkjdshf
             Image imageModel = new Image();
             
             if (file.ContentLength > 0)
